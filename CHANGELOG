@@ -1,6 +1,7 @@
 * Fri May 19 2017 Nick Miller <nick.miller@onyxpoint.com> - 0.0.2
 - Removed deprecated audit metaparameter
 - Added basic acceptance test
+- Made sure the cron::user class doesn't use the pam module if pam is false
 
 * Thu Dec 8 2016 Nick Miller <nick.miller@onxypoint.com> - 0.0.1
 - First cut
